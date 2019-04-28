@@ -2,7 +2,7 @@
 
 ## Overview
 
-`scwall` is a cli utility written in rust that allows users to send encrypted terminal spam to all other users logged into the same server as them. Like the fabled linux cli tool, `wall`, `scwall` enables a sender to interrupt the terminal sessions of all other users with an unwanted message. However, unlike `wall`, `scwall` enables the sender to encrypt their message to a specified recipient. The recipient will be interrupted and prompted to enter a password to decrypt their `scwall` message. All other users will have their terminal sessions interrupted by an encrypted cyphertext bytestream (with sufficient padding to ensure a lenghty interruption).
+`scwall` is a cli utility written in rust that allows users to send encrypted terminal spam to all other users logged into the same server as them. Like the beloved linux cli tool, `wall`, `scwall` enables a sender to interrupt the terminal sessions of all other users with an unwanted message. However, unlike `wall`, `scwall` enables the sender to encrypt their message to a specified recipient. The recipient will be interrupted and prompted to enter a password to decrypt their `scwall` message. All other users will have their terminal sessions interrupted by an encrypted cyphertext bytestream (with sufficient padding to ensure a lenghty interruption).
 
 `scwall` was first conceived at the Recurse Center's first ever SOUTH by SOUTH. (Stupid Or Useful Things Hackaton by Serious Opensource Users Trying Hamburgers.)
 
