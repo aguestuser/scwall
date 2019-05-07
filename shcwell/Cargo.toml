@@ -1,7 +1,8 @@
 [package]
-name = "scwall"
+name = "shcwell"
 version = "0.1.0"
 authors = ["aguestuser <aguestuser@riseup.net>"]
 edition = "2018"
 
 [dependencies]
+libc = "0.2.54"

@@ -1,9 +1,10 @@
 # SCWALL TODO/NOTES
 
 # TODO
-* [ ] implement minimal `shcwell`:
-  * [ ] fork child bash process and pipe to/from it
-  * [ ] interrupt after 5 seconds and prompt for scwallpass (if user ctl-c's show sl)
+* [x] implement minimal `shcwell`:
+  * [x] fork child bash process and pipe to/from it
+  * [x] interrupt after 5 seconds and prompt for scwallpass
+  * [ ] if user ctl-c's, run `sl`
 * [ ] implement reading from `schwellin`
   * [ ] redirect messages from `/dev/schwellin/xx` to bash
   * [ ] interrupt when messages received on `schwellin`
